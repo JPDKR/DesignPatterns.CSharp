@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RefactoringGuru.DesignPatterns.Visitor.Conceptual
+namespace DesignPatterns.CSharp.Behavioral.Visitor
 {
     // The Component interface declares an `accept` method that should take the
     // base visitor interface as an argument.
@@ -105,11 +105,11 @@ namespace RefactoringGuru.DesignPatterns.Visitor.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
-            List<IComponent> components = new List<IComponent>
+            List<IComponent> components = new()
             {
                 new ConcreteComponentA(),
                 new ConcreteComponentB()

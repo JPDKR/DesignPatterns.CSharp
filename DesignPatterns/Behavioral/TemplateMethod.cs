@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RefactoringGuru.DesignPatterns.TemplateMethod.Conceptual
+namespace DesignPatterns.CSharp.Behavioral.TemplateMethod
 {
     // The Abstract Class defines a template method that contains a skeleton of
     // some algorithm, composed of calls to (usually) abstract primitive
@@ -102,9 +102,9 @@ namespace RefactoringGuru.DesignPatterns.TemplateMethod.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             Console.WriteLine("Same client code can work with different subclasses:");
 

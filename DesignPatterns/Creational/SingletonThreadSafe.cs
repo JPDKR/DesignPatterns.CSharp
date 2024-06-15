@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading;
-
-namespace RefactoringGuru.DesignPatterns.Singleton.Conceptual.ThreadSafe
+﻿namespace DesignPatterns.CSharp.Creational.Singleton.ThreadSafe
 {
     // This Singleton implementation is called "double check lock". It is safe
     // in multithreaded environment and provides lazy initialization for the
@@ -49,9 +46,9 @@ namespace RefactoringGuru.DesignPatterns.Singleton.Conceptual.ThreadSafe
         public string? Value { get; set; }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code.
 

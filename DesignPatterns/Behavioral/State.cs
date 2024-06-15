@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.State.Conceptual
+﻿namespace DesignPatterns.CSharp.Behavioral.State
 {
     // The Context defines the interface of interest to clients. It also
     // maintains a reference to an instance of a State subclass, which
@@ -86,9 +84,9 @@ namespace RefactoringGuru.DesignPatterns.State.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code.
             var context = new Context(new ConcreteStateA());

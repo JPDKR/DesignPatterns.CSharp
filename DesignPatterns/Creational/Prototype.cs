@@ -1,4 +1,4 @@
-﻿namespace RefactoringGuru.DesignPatterns.Prototype.Conceptual
+﻿namespace DesignPatterns.CSharp.Creational.Prototype
 {
     public class Person
     {
@@ -31,9 +31,9 @@
         }
     }
 
-    class Prototype
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             Person? p1 = new()
             {

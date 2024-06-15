@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.FactoryMethod.Conceptual
+﻿namespace DesignPatterns.CSharp.Creational.FactoryMethod
 {
     // The Creator class declares the factory method that is supposed to return
     // an object of a Product class. The Creator's subclasses usually provide
@@ -102,9 +100,9 @@ namespace RefactoringGuru.DesignPatterns.FactoryMethod.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             new Client().Main();
         }

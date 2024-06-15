@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.Decorator.Conceptual
+﻿namespace DesignPatterns.CSharp.Structural.Decorator
 {
     // The base Component interface defines operations that can be altered by
     // decorators.
@@ -94,11 +92,11 @@ namespace RefactoringGuru.DesignPatterns.Decorator.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
-            Client client = new Client();
+            Client client = new();
 
             var simple = new ConcreteComponent();
             Console.WriteLine("Client: I get a simple component:");
@@ -109,8 +107,8 @@ namespace RefactoringGuru.DesignPatterns.Decorator.Conceptual
             //
             // Note how decorators can wrap not only simple components but the
             // other decorators as well.
-            ConcreteDecoratorA decorator1 = new ConcreteDecoratorA(simple);
-            ConcreteDecoratorB decorator2 = new ConcreteDecoratorB(decorator1);
+            ConcreteDecoratorA decorator1 = new(simple);
+            ConcreteDecoratorB decorator2 = new(decorator1);
             Console.WriteLine("Client: Now I've got a decorated component:");
             client.ClientCode(decorator2);
         }

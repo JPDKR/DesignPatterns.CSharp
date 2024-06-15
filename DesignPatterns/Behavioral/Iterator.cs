@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections;
 
-namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
+namespace DesignPatterns.CSharp.Behavioral.Iterator
 {
     abstract class Iterator : IEnumerator
     {
@@ -32,14 +30,14 @@ namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
     // store the current traversal position at all times.
     class AlphabeticalOrderIterator : Iterator
     {
-        private WordsCollection _collection;
+        private readonly WordsCollection _collection;
 
         // Stores the current traversal position. An iterator may have a lot of
         // other fields for storing iteration state, especially when it is
         // supposed to work with a particular kind of collection.
         private int _position = -1;
 
-        private bool _reverse = false;
+        private readonly bool _reverse = false;
 
         public AlphabeticalOrderIterator(WordsCollection collection, bool reverse = false)
         {
@@ -47,14 +45,12 @@ namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
             _reverse = reverse;
 
             if (reverse)
-            {
-                _position = collection.getItems().Count;
-            }
+                _position = collection.GetItems().Count;
         }
 
         public override object Current()
         {
-            return _collection.getItems()[_position];
+            return _collection.GetItems()[_position];
         }
 
         public override int Key()
@@ -66,7 +62,7 @@ namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
         {
             int updatedPosition = _position + (_reverse ? -1 : 1);
 
-            if (updatedPosition >= 0 && updatedPosition < _collection.getItems().Count)
+            if (updatedPosition >= 0 && updatedPosition < _collection.GetItems().Count)
             {
                 _position = updatedPosition;
                 return true;
@@ -79,7 +75,7 @@ namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
 
         public override void Reset()
         {
-            _position = _reverse ? _collection.getItems().Count - 1 : 0;
+            _position = _reverse ? _collection.GetItems().Count - 1 : 0;
         }
     }
 
@@ -87,7 +83,7 @@ namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
     // iterator instances, compatible with the collection class.
     class WordsCollection : IteratorAggregate
     {
-        List<string> _collection = new List<string>();
+        readonly List<string> _collection = new();
 
         bool _direction = false;
 
@@ -96,7 +92,7 @@ namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
             _direction = !_direction;
         }
 
-        public List<string> getItems()
+        public List<string> GetItems()
         {
             return _collection;
         }
@@ -112,9 +108,9 @@ namespace RefactoringGuru.DesignPatterns.Iterator.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code may or may not know about the Concrete Iterator
             // or Collection classes, depending on the level of indirection you

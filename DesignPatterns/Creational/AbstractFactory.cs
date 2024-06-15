@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.AbstractFactory.Conceptual
+﻿namespace DesignPatterns.CSharp.Creational.AbstractFactory
 {
     // The Abstract Factory interface declares a set of methods that return
     // different abstract products. These products are called a family and are
@@ -148,9 +146,9 @@ namespace RefactoringGuru.DesignPatterns.AbstractFactory.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             new Client().Main();
         }

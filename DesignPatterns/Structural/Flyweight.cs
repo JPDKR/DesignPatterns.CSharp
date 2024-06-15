@@ -1,7 +1,7 @@
 ﻿// Use Json.NET library, you can download it from NuGet Package Manager
 using Newtonsoft.Json;
 
-namespace RefactoringGuru.DesignPatterns.Flyweight.Conceptual
+namespace DesignPatterns.CSharp.Structural.Flyweight
 {
     // The Flyweight stores a common portion of the state (also called intrinsic
     // state) that belongs to multiple real business entities. The Flyweight
@@ -103,9 +103,9 @@ namespace RefactoringGuru.DesignPatterns.Flyweight.Conceptual
         public string? Color { get; set; }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code usually creates a bunch of pre-populated
             // flyweights in the initialization stage of the application.

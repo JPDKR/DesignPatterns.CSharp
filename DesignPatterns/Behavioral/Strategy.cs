@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace RefactoringGuru.DesignPatterns.Strategy.Conceptual
+namespace DesignPatterns.CSharp.Behavioral.Strategy
 {
     // The Context defines the interface of interest to clients.
     class Context
@@ -80,9 +80,9 @@ namespace RefactoringGuru.DesignPatterns.Strategy.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code picks a concrete strategy and passes it to the
             // context. The client should be aware of the differences between

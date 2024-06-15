@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-
-namespace RefactoringGuru.DesignPatterns.Memento.Conceptual
+﻿namespace DesignPatterns.CSharp.Behavioral.Memento
 {
     // The Originator holds some important state that may change over time. It
     // also defines a method for saving the state inside a memento and another
@@ -164,9 +159,9 @@ namespace RefactoringGuru.DesignPatterns.Memento.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // Client code.
             Originator originator = new("Super-duper-super-puper-super.");

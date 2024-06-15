@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.Adapter.Conceptual
+﻿namespace DesignPatterns.CSharp.Structural.Adapter
 {
     // The Target defines the domain-specific interface used by the client code.
     public interface ITarget
@@ -36,11 +34,11 @@ namespace RefactoringGuru.DesignPatterns.Adapter.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
-            Adaptee adaptee = new Adaptee();
+            Adaptee adaptee = new();
             ITarget target = new Adapter(adaptee);
 
             Console.WriteLine("Adaptee interface is incompatible with the client.");

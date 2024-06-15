@@ -1,4 +1,4 @@
-﻿namespace RefactoringGuru.DesignPatterns.Proxy.Conceptual
+﻿namespace DesignPatterns.CSharp.Structural.Proxy
 {
     // The Subject interface declares common operations for both RealSubject and
     // the Proxy. As long as the client works with RealSubject using this
@@ -75,20 +75,20 @@
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
-            Client client = new Client();
+            Client client = new();
 
             Console.WriteLine("Client: Executing the client code with a real subject:");
-            RealSubject realSubject = new RealSubject();
+            RealSubject realSubject = new();
             client.ClientCode(realSubject);
 
             Console.WriteLine();
 
             Console.WriteLine("Client: Executing the same client code with a proxy:");
-            Proxy proxy = new Proxy(realSubject);
+            Proxy proxy = new(realSubject);
             client.ClientCode(proxy);
         }
     }

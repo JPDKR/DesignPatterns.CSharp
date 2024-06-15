@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.Singleton.Conceptual.NonThreadSafe
+﻿namespace DesignPatterns.CSharp.Creational.Singleton.NonThreadSafe
 {
     // The Singleton class defines the `GetInstance` method that serves as an
     // alternative to constructor and lets clients access the same instance of
@@ -38,9 +36,9 @@ namespace RefactoringGuru.DesignPatterns.Singleton.Conceptual.NonThreadSafe
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code.
             SingletonNonThreadSafe s1 = SingletonNonThreadSafe.GetInstance();

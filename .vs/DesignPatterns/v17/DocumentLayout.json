@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\other\\architectural\\mvvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\other\\architectural\\mvvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\other\\domain\\domainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\other\\domain\\domainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\other\\domain\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\other\\domain\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\other\\concurrency\\readwritelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\other\\concurrency\\readwritelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\other\\concurrency\\producerconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\other\\concurrency\\producerconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\creational\\prototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\creational\\prototype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\structural\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\structural\\proxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\structural\\flyweight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\structural\\flyweight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\structural\\facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\structural\\facade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\structural\\decorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\structural\\decorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\structural\\composite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\structural\\composite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\structural\\bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\structural\\bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\structural\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\structural\\adapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\creational\\singletonthreadsafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\creational\\singletonthreadsafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\creational\\singletonnonthreadsafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\creational\\singletonnonthreadsafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\creational\\factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\creational\\factorymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\creational\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\creational\\builder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\creational\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\creational\\abstractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\visitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\templatemethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\templatemethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\strategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\observer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\observer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\memento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\memento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\iterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\iterator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\interpreter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\interpreter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\behavioral\\chainofresponsibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\behavioral\\chainofresponsibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|c:\\users\\julian podbersich\\source\\repos\\jpdkr\\designpatterns\\designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8B01EF2-3A22-4809-87DC-E7F5B5E1B47D}|DesignPatterns\\DesignPatterns.CSharp.csproj|solutionrelative:designpatterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MVVM.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Architectural\\MVVM.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Other\\Architectural\\MVVM.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Architectural\\MVVM.cs",
+              "RelativeToolTip": "DesignPatterns\\Other\\Architectural\\MVVM.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwDgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:43:24.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DomainModel.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Domain\\DomainModel.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Other\\Domain\\DomainModel.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Domain\\DomainModel.cs",
+              "RelativeToolTip": "DesignPatterns\\Other\\Domain\\DomainModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAASwCEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:25:28.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Domain\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Other\\Domain\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Domain\\UnitOfWork.cs",
+              "RelativeToolTip": "DesignPatterns\\Other\\Domain\\UnitOfWork.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAwH8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:23:05.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReadWriteLock.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Concurrency\\ReadWriteLock.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Other\\Concurrency\\ReadWriteLock.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Concurrency\\ReadWriteLock.cs",
+              "RelativeToolTip": "DesignPatterns\\Other\\Concurrency\\ReadWriteLock.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAwCkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:10:06.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProducerConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Concurrency\\ProducerConsumer.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Other\\Concurrency\\ProducerConsumer.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Other\\Concurrency\\ProducerConsumer.cs",
+              "RelativeToolTip": "DesignPatterns\\Other\\Concurrency\\ProducerConsumer.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAhwCYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:09:42.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Prototype.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\Prototype.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Creational\\Prototype.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\Prototype.cs",
+              "RelativeToolTip": "DesignPatterns\\Creational\\Prototype.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T18:08:20.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Proxy.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Proxy.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Structural\\Proxy.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Proxy.cs",
+              "RelativeToolTip": "DesignPatterns\\Structural\\Proxy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:33:23.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Flyweight.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Flyweight.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Structural\\Flyweight.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Flyweight.cs",
+              "RelativeToolTip": "DesignPatterns\\Structural\\Flyweight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:33:14.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Facade.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Facade.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Structural\\Facade.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Facade.cs",
+              "RelativeToolTip": "DesignPatterns\\Structural\\Facade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:33:08.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Decorator.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Decorator.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Structural\\Decorator.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Decorator.cs",
+              "RelativeToolTip": "DesignPatterns\\Structural\\Decorator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:32:58.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Composite.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Composite.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Structural\\Composite.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Composite.cs",
+              "RelativeToolTip": "DesignPatterns\\Structural\\Composite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:32:50.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bridge.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Bridge.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Structural\\Bridge.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Bridge.cs",
+              "RelativeToolTip": "DesignPatterns\\Structural\\Bridge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:32:43.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Adapter.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Adapter.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Structural\\Adapter.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Structural\\Adapter.cs",
+              "RelativeToolTip": "DesignPatterns\\Structural\\Adapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:32:28.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SingletonThreadSafe.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\SingletonThreadSafe.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Creational\\SingletonThreadSafe.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\SingletonThreadSafe.cs",
+              "RelativeToolTip": "DesignPatterns\\Creational\\SingletonThreadSafe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:32:17.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SingletonNonThreadSafe.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\SingletonNonThreadSafe.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Creational\\SingletonNonThreadSafe.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\SingletonNonThreadSafe.cs",
+              "RelativeToolTip": "DesignPatterns\\Creational\\SingletonNonThreadSafe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:32:07.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FactoryMethod.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\FactoryMethod.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Creational\\FactoryMethod.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\FactoryMethod.cs",
+              "RelativeToolTip": "DesignPatterns\\Creational\\FactoryMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:32:00.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Builder.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\Builder.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Creational\\Builder.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\Builder.cs",
+              "RelativeToolTip": "DesignPatterns\\Creational\\Builder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:52.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AbstractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\AbstractFactory.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Creational\\AbstractFactory.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Creational\\AbstractFactory.cs",
+              "RelativeToolTip": "DesignPatterns\\Creational\\AbstractFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:35.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Visitor.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Visitor.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Visitor.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Visitor.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Visitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:27.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TemplateMethod.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\TemplateMethod.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\TemplateMethod.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\TemplateMethod.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\TemplateMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:21.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Strategy.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Strategy.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Strategy.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Strategy.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Strategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:14.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "State.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\State.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\State.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\State.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\State.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:07.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Observer.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Observer.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Observer.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Observer.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Observer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:31:01.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Mediator.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Mediator.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Mediator.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Mediator.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Mediator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:47.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Memento.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Memento.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Memento.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Memento.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Memento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:45.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Iterator.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Iterator.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Iterator.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Iterator.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Iterator.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIBQwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:38.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Interpreter.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Interpreter.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Interpreter.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Interpreter.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Interpreter.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAwEYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:31.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Command.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\Command.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\Command.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\Command.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:22.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ChainOfResponsibility.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\ChainOfResponsibility.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Behavioral\\ChainOfResponsibility.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Behavioral\\ChainOfResponsibility.cs",
+              "RelativeToolTip": "DesignPatterns\\Behavioral\\ChainOfResponsibility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:30:03.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Program.cs",
+              "RelativeDocumentMoniker": "DesignPatterns\\Program.cs",
+              "ToolTip": "C:\\Users\\Julian Podbersich\\source\\repos\\JPDKR\\DesignPatterns\\DesignPatterns\\Program.cs",
+              "RelativeToolTip": "DesignPatterns\\Program.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAABRwJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T13:13:12.451Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

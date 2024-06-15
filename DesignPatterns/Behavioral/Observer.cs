@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-
-namespace RefactoringGuru.DesignPatterns.Observer.Conceptual
+﻿namespace DesignPatterns.CSharp.Behavioral.Observer
 {
     public interface IObserver
     {
@@ -98,9 +94,9 @@ namespace RefactoringGuru.DesignPatterns.Observer.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code.
             var subject = new Subject();

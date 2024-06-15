@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.Mediator.Conceptual
+﻿namespace DesignPatterns.CSharp.Behavioral.Mediator
 {
     // The Mediator interface declares a method used by components to notify the
     // mediator about various events. The Mediator may react to these events and
@@ -93,14 +91,14 @@ namespace RefactoringGuru.DesignPatterns.Mediator.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code.
             Component1 component1 = new();
             Component2 component2 = new();
-            new ConcreteMediator(component1, component2);
+            _ = new ConcreteMediator(component1, component2);
 
             Console.WriteLine("Client triggers operation A.");
             component1.DoA();

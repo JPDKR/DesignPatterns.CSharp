@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.Bridge.Conceptual
+﻿namespace DesignPatterns.CSharp.Structural.Bridge
 {
     // The Abstraction defines the interface for the "control" part of the two
     // class hierarchies. It maintains a reference to an object of the
@@ -71,28 +69,26 @@ namespace RefactoringGuru.DesignPatterns.Bridge.Conceptual
         // linked with a specific Implementation object, the client code should
         // only depend on the Abstraction class. This way the client code can
         // support any abstraction-implementation combination.
-        public void ClientCode(Abstraction abstraction)
+        public static void ClientCode(Abstraction abstraction)
         {
             Console.Write(abstraction.Operation());
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
-            Client client = new Client();
-
             Abstraction abstraction;
             // The client code should be able to work with any pre-configured
             // abstraction-implementation combination.
             abstraction = new Abstraction(new ConcreteImplementationA());
-            client.ClientCode(abstraction);
+            Client.ClientCode(abstraction);
 
             Console.WriteLine();
 
             abstraction = new ExtendedAbstraction(new ConcreteImplementationB());
-            client.ClientCode(abstraction);
+            Client.ClientCode(abstraction);
         }
     }
 }

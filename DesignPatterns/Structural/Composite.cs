@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace RefactoringGuru.DesignPatterns.Composite.Conceptual
+﻿namespace DesignPatterns.CSharp.Structural.Composite
 {
     // The base Component class declares common operations for both simple and
     // complex objects of a composition.
@@ -120,24 +117,24 @@ namespace RefactoringGuru.DesignPatterns.Composite.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
-            Client client = new Client();
+            Client client = new();
 
             // This way the client code can support the simple leaf
             // components...
-            Leaf leaf = new Leaf();
+            Leaf leaf = new();
             Console.WriteLine("Client: I get a simple component:");
             client.ClientCode(leaf);
 
             // ...as well as the complex composites.
-            Composite tree = new Composite();
-            Composite branch1 = new Composite();
+            Composite tree = new();
+            Composite branch1 = new();
             branch1.Add(new Leaf());
             branch1.Add(new Leaf());
-            Composite branch2 = new Composite();
+            Composite branch2 = new();
             branch2.Add(new Leaf());
             tree.Add(branch1);
             tree.Add(branch2);

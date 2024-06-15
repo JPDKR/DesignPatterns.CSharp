@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace RefactoringGuru.DesignPatterns.ChainOfResponsibility.Conceptual
+﻿namespace DesignPatterns.CSharp.Behavioral.ChainOfResponsibility
 {
     // The Handler interface declares a method for building the chain of
     // handlers. It also declares a method for executing a request.
@@ -110,9 +107,9 @@ namespace RefactoringGuru.DesignPatterns.ChainOfResponsibility.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The other part of the client code constructs the actual chain.
             var monkey = new MonkeyHandler();

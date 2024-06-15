@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace RefactoringGuru.DesignPatterns.Builder.Conceptual
+﻿namespace DesignPatterns.CSharp.Creational.Builder
 {
     // The Builder interface specifies methods for creating the different parts
     // of the Product objects.
@@ -130,9 +127,9 @@ namespace RefactoringGuru.DesignPatterns.Builder.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code creates a builder object, passes it to the
             // director and then initiates the construction process. The end

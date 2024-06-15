@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace RefactoringGuru.DesignPatterns.Command.Conceptual
+﻿namespace DesignPatterns.CSharp.Behavioral.Command
 {
     // The Command interface declares a method for executing a command.
     public interface ICommand
@@ -109,14 +107,14 @@ namespace RefactoringGuru.DesignPatterns.Command.Conceptual
         }
     }
 
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public void Main()
         {
             // The client code can parameterize an invoker with any commands.
-            Invoker invoker = new Invoker();
+            Invoker invoker = new();
             invoker.SetOnStart(new SimpleCommand("Say Hi!"));
-            Receiver receiver = new Receiver();
+            Receiver receiver = new();
             invoker.SetOnFinish(new ComplexCommand(receiver, "Send email", "Save report"));
 
             invoker.DoSomethingImportant();

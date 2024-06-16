@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace DesignPatterns.CSharp.Behavioral.Strategy
+﻿namespace DesignPatterns.CSharp.Behavioral.Strategy
 {
     // The Context defines the interface of interest to clients.
     class Context

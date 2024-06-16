@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.CSharp.Other.Architectural.ServiceOrientedArquitecture
+﻿namespace DesignPatterns.CSharp.Other.Architectural.ServiceOrientedArchitecture
 {
     // Este patrón utiliza servicios para ofrecer funcionalidades específicas y modularizadas.
     // Servicio de ejemplo en SOA

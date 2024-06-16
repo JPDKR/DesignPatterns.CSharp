@@ -1,9 +1,5 @@
 ﻿namespace DesignPatterns.CSharp.Behavioral.Interpreter
 {
-    internal class Interpreter
-    {
-    }
-
     public interface IExpression
     {
         int Interpret();

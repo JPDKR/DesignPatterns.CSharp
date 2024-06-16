@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DesignPatterns.CSharp.Behavioral.TemplateMethod
+﻿namespace DesignPatterns.CSharp.Behavioral.TemplateMethod
 {
     // The Abstract Class defines a template method that contains a skeleton of
     // some algorithm, composed of calls to (usually) abstract primitive

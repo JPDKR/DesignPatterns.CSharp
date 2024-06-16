@@ -131,12 +131,12 @@
                     case 2: new Other.Concurrency.ReadWriteLock.Program().Main(); break;
                     case 3: new Other.Concurrency.ThreadPool.Program().Main(); break;
                     case 4: new Other.Architectural.MVC.Program().Main(); break;
-                    case 5: // Solo en WPF.
-                    case 6: // Solo con AspNet
-                    case 7: new Other.Architectural.ServiceOrientedArquitecture.Program().Main(); break;
+                    case 5: // MVVM - Solo en WPF.
+                    case 6: // Microservicios - Solo con AspNet
+                    case 7: new Other.Architectural.ServiceOrientedArchitecture.Program().Main(); break;
                     case 8: new Other.Domain.Repository.Program().Main(); break;
                     case 9: new Other.Domain.UnitOfWork.Program().Main(); break;
-                    case 10: // Es solo muestra.
+                    case 10: // Domain Model - Es solo muestra.
                     default:
                         Console.WriteLine("Opción no válida.");
                         break;
